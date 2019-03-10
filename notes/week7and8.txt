@@ -1,0 +1,1 @@
+These past two weeks, we ironed out the parts of the game we hadn't fully decided on yet like the ship functionality, the way we wanted the classes to interact with each other.  The materials class and header has been created and made for the first round.  The ship class and header and the asteroid class and header are going to be finished out this week.

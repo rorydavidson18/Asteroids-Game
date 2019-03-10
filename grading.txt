@@ -1,0 +1,74 @@
+Summary:
+  + Strengths: good design, current implementation looks good, great progress updates
+  - did not achieve functionality goals, uneven team effort 
+  - presentation was not well prepared
+
+
+Statistical information for the repository 'sp3000' was gathered on 2018/03/18.
+The following historical commit information, by author, was found:
+
+Author                     Commits    Insertions      Deletions    % of changes
+Andrew Cvitanovich              18          1295            373           68.05
+Erric Chanthavong               13           371             82           18.48
+rorydavidson                    10           287             43           13.46
+
+Below are the number of rows from each author that have survived and are still
+intact in the current revision:
+
+Author                     Rows      Stability          Age       % in comments
+Andrew Cvitanovich         1111           85.8          0.7               12.96
+Erric Chanthavong           267           72.0          1.0                0.00
+rorydavidson                172           59.9          0.9                1.16
+
+The following history timeline has been gathered from the repository:
+
+Author                  2018W08    2018W09    2018W10    2018W11 
+Andrew Cvitanovich                   +++++   --++++++   -+++++++ 
+Erric Chanthavong     +++++++++  -++++++++          .          . 
+rorydavidson                                       ++          + 
+Modified Rows:               74        387        846       1144 
+
+The following files are suspiciously big (in order of severity):
+game/game.cpp (591 estimated lines of code)
+
+The following files have an elevated cyclomatic complexity (in order of severity):
+game/game.cpp (57 in cyclomatic complexity)
+
+The following responsibilities, by author, were found in the current revision of
+the repository (comments are excluded from the line count, if possible):
+
+Andrew Cvitanovich is mostly responsible for:
+   570 game/game.cpp
+    96 asteroids/asteroid.cpp
+    90 main.cpp
+    83 game/game.hpp
+    41 asteroids/test-asteroidclass.cpp
+    38 asteroids/asteroid.hpp
+    17 ship/ship.cpp
+    11 ship/ship.hpp
+     9 materials/allMaterials.hpp
+     4 materials/test-material.cpp
+
+Erric Chanthavong is mostly responsible for:
+    57 materials/material.cpp
+    35 materials/material.hpp
+    26 map/map.cpp
+    25 map/map.hpp
+    18 ship/ship.cpp
+    15 materials/titanium.cpp
+    15 materials/silver.cpp
+    15 materials/gold.cpp
+    14 materials/titanium.hpp
+    14 materials/test-material.cpp
+
+rorydavidson is mostly responsible for:
+    74 ship/ship.cpp
+    50 ship/ship.hpp
+    21 ship/test-ship.cpp
+    21 game/game.cpp
+     3 game/game.hpp
+     1 asteroids/asteroid.hpp
+
+The extensions below were found in the repository history (extensions used
+during statistical analysis are marked):
+* [cpp] [hpp] md txt 

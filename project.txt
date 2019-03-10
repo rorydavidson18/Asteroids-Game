@@ -1,0 +1,20 @@
+** Project name:
+Space Prospector 3000
+
+** Project repository:
+git@bitbucket.org:cvitanov/sp3000.git
+
+** Team members:
+Rory Davidson
+Andrew Cvitanovich
+Erric Chanthavong
+
+** Description (1-3 paragraphs):
+Space Prospector 3000 is an educational game for kids that teaches basic science concepts in a fun and engaging futuristic setting. Players freely explore a randomly generated map filled with asteroids and other objects with the goal of mining precious minerals from the surface of each asteroid. While prospecting for these minerals the player will learn about the chemistry of each mineral and a bit about Newton's laws of motion since they will be required to land on each asteroid in a realistic physics-based setting.
+
+** Implementation approach:
+We will use C++ with the SDL API to render the game elements. The graphics will be very simple 2D objects on a randomly generated map explored by the player using a top-down perspective. Asteroids and other objects in the game will have physics-based motion and landing on the asteroids will be accomplished using thrusters on the player's craft. After landing on an asteroid an interactive screen will prompt the user on how to mine materials from the surface. Each asteroid will have data associated with it regarding what minerals are available and their characteristics, and the game will have a teaching element that explains the uses and properties of the minerals. We may use JSON notation to store asteroid data for saved games, etc. A map of the game universe will always be available for the player to orient their location and find destinations in the game. Once the player has collected enough minerals to advance to another level of the game they can transport them back to a home space station. 
+
+** Risk management plan (max 1 paragraph):
+
+We do not forsee significant risks to this project other than the time requirements for various features. We will aim to complete the basic functionality of a player navigating a map of pseudorandomly generated asteroids first, then add physics-based motion to the asteroids and player, then we will add the landing and interactive mining functionality. Other features, such as a tractor beam or a space station to return to will be added if time permits. We think that the basic functionality of this game can be completed with reasonable effort and the other features will just add additional quality to the game.

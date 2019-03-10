@@ -1,0 +1,40 @@
+Brainstorming Session Feb 17th
+
+NOTES:
+
+In our first brainstorming session we decided on important classes that are needed for the game. Some descriptions are below. Also, the game board will extend beyond the size of the actual window during game play, so the game will be in camera mode with a top down view of the spaceship which will always be in the center of the main viewport. A viewport on the lower part of the screen could have a small menu with options to view inventory, view a map, etc. Asteroids will float around in space and possibly be attracted to each other using "gravity" while the spaceship will be controlled with keystrokes (up, down, left, right) and maybe also other controls for thrusters, docking, etc.
+
+Information about each level can be stored in a text file. Collision detection will be an important feature which can be done in SDL by checking if the range of x coords and y coords both overlap for two objects. Each asteroid will have different materials that can be mined and chemical data about the materials, so we can have classes for each type of material with the chemical data. Also, on the map when asteroids with new minerals/materials are discovered we can have color coded symbols to show the location of the new resources.
+
+That's most of what we talked about. The next steps will be to write up the class declarations and get some basic game functionality working with SDL.
+
+CLASS DEFINITIONS:
+
+Class Asteroid
+    Variables: mass, sprite or bitmap, position, velocity
+    Methods: render(), explode()???, combine_with_another_asteroid()????
+
+Class Ship
+    Variables: Exp. Points, Inventory, Tech, Mods, mass, position velocity
+    Methods: render(), move()
+
+Class Level
+    Variables: difficulty (enum?), dimensions, num asteroids, objective, etc
+
+Class Game
+    Variables: score, points_to_win, saved_state, vector of levels?, etc
+
+Class Material
+    Variables: color, mass, volume, price, uses, liquid/solid/gas, chemical formula
+
+Specific Materials (Inherit from Material):
+
+Class Gold IS A Material (golden-yellow)
+
+Class Silver IS A Material (grey)
+
+Class Titanium IS A Material (purple)
+
+Class Water IS A Material (blue)
+
+and so on...

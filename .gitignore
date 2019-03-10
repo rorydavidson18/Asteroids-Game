@@ -1,0 +1,15 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# Compiled executables
+*.o
+*.exe
+*.out
+
+# compiled dynamic libraries
+*.dylib
+*.dll
+*.so
+
+# OS X Folder Attributes
+*.DS_Store
+*.DS_Store?

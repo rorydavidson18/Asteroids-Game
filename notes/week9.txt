@@ -1,0 +1,10 @@
+Week 9 of project:
+Currently, we have our ship, asteroid and material files are working as of
+now. However,we are still learning SDL and its mechanics. So far, we have
+gotten a SDL window display with our ship displayed on it but it becomes
+buggy when we tried to display the asteroids with it. We are currently
+trying to get the ship moving, as well as displaying all the asteroids
+with it. We're also trying to make interactions with the ship and asteroids
+in getting the materials from the asteroid and adding it on the ship's
+inventory. And if possible, we would like to put some more add-ons with
+our projects if time allows us.
